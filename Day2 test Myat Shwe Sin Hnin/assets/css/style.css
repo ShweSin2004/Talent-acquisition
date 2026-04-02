@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstses {
+    color:white;
+    background-color: orange;
+    height: 40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.firstses div a {
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    width: calc(100% / 3);
+}
+
+.firstses nav a{
+    text-decoration: none;
+    color:white;
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.secondses {
+    background-image: url(../image/pexels-johannes-rampp-1618846-19711059.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secondses h {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    height: 40px;
+    backdrop-filter: blur(5px);
+}
+
+.secondses p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.secondses a {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.thirdses {
+    background-color: #dbdbdb;
+}
+
+.thirdses h {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 20px 20px;
+    font-size: 30px;
+
+}
+
+.thirdses p {
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+.center {
+    width: 80%;
+    padding: 10px;
+}
+
+.fourthses {
+    background-color: #dbdbdb;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px;
+}
+
+.orangebg {
+    background-color: orange;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.fourthses div p {
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.fifthses {
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+th {
+    text-align: left;
+}
+
+.fifthses h {
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+.greybg {
+    background-color: grey;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
