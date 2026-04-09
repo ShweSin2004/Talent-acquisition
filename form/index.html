@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <h1>DASHBOARD</h1>
+            <div class="icons">
+                <a href="">&#128386;</a>
+                <a href="">&#128365;</a>
+                <a href="">&#128100;</a>
+            </div>
+        </header>
+
+        <main>
+            <section class="menu">
+                <div class="black-menu">
+                    <a href="">&#128445; Layout</a>
+                    <a href="">&#128458; Report Table</a>
+                    <a href="">&#128480; Chart</a>
+                    <a href="">&#128459; Form</a>
+                    <a href="">&#128427; Logs</a>
+                </div>
+
+                <div class="black-menu">
+                    <a href="">&#128445; Layout</a>
+                    <a href="">&#128458; Report Table</a>
+                    <a href="">&#128480; Chart</a>
+                    <a href="">&#128459; Form</a>
+                    <a href="">&#128427; Logs</a>
+                </div>               
+            </section>
+
+            <section class="form">
+                <h2>Registration Form</h2>
+                <div class="form-info">
+                    <label>Name</label>
+                    <input type="text" placeholder="Enter your name">
+
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email">
+
+                    <label>Date of Birth</label>
+                    <input type="date" placeholder="Enter your date of birth">
+
+                    <label>Phone number</label>
+                    <input type="tel" placeholder="Enter your phone number">
+
+                    <label>Gender</label>
+                    <div class="gender">
+                        <input type="radio" name="gender" value="male" checked>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+
+                    <label>Favorite Programming Language</label>
+                    <div class="lan">
+                        <label for="html">HTML</label>
+                        <input type="checkbox" id="html" name="language" value="html">
+                        <label for="css">CSS</label>
+                        <input type="checkbox" id="css" name="language" value="css">
+                        <label for="javascript">JavaScript</label>
+                        <input type="checkbox" id="javascript" name="language" value="javascript">
+                        <label for="react">React</label>
+                        <input type="checkbox" id="react" name="language" value="react">
+                    </div>
+                    
+                    <label>Choose a color</label>
+                    <select>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+
+                    <label>Message</label>
+                    <textarea id="message" placeholder="Enter your message"></textarea>
+
+                    <div class="btn">
+                        <button id="submit" type="submit">Submit</button>
+                        <button id="reset" type="reset">Reset</button>
+                    </div>                    
+                </div>
+
+                <footer>
+                    <p>Copyright © 2024</p>
+
+                    <div class="policy">
+                        <a href="">Privacy Policy</a>
+                        <a href="">Terms & Conditions</a>
+                    </div>
+                </footer>
+            </section>
+        </main>
+    </body>
+</html>
