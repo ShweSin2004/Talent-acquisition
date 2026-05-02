@@ -1,32 +1,372 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif; 
-    color:white;
+    font-family: "Roboto", sans-serif;
 }
 
 .grey {
     color:grey;
 }
 
+.white {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
 .first-sec {
     background-image: url(../images/ben-duchac-3fJOXw1RbPo-unsplash.png);
-    background-size: cover;
+    background-size: cover;    
+    background-color: #FAE0D7;
     background-repeat: no-repeat;
-    display:flex;
-    flex-direction: column;
-    height: 100vh;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    height: 130vh;
+    width: 100%;
+    padding: 20px 100px;
 }
 
 .bar {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    height: 10%;
+    align-items: center;
+}
+
+.bar-info {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+
+.sign {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.first-sec-pgh {
+    height: 90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.first-sec-pgh h1 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 81px;
+}
+
+.first-sec-pgh p {
+    font-size: 18px;
+}
+
+.button-one {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 7px 20px;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    position: absolute;
+    bottom: -350px;
+    left: 110px;
+}
+
+.service-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #FAE0D7;
+    padding: 10px 20px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.second-sec {
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-sec-h {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Archivo', sans-serif;
+    width: 400px;
+    text-align: center;
+    gap: 15px;
+}
+
+.destinations {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 50px 100px;
+}
+
+.desti-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    border: 1px solid #F8EEEB;
+    border-radius: 30px;
+    padding: 20px 20px;
+    background-color: #F8EEEB;
+    position: relative;
+}
+
+.desti-info img {
+    width: 230px;
+    height: 130px;
+    border-radius: 20px;
+}
+
+.destinations span {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 6px;
+    width: 30px;
+    position: absolute;
+    top: 24px;
+    right: 60px;
+    background-color: white;
+}
+
+.read-btn {
+    border: 1px solid #8d8d8d;
+    border-radius: 20px;
+    padding: 10px 10px;
+    background-color: #8d8d8d;
+    color: white;
+    width: 120px;
+}
+
+.btn {
+    color: red;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+}
+
+.view-btn {
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: red;
+}
+
+.third-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 0 100px;
+    border: 1px solid #FAE0D7;
+    border-radius: 80px;
+    width: 80%; 
+    height: 300px;
+    background-color: #FAE0D7;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subscribe p {
+    width: 80%;
+}
+
+.subscribe h1 {
+    color:#3B3735;
+    font-size: 50px;
+}
+
+form {
+    position: relative;
+}
+
+form span {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+    border-radius: 30px;
+    padding: 0 40px;
+}
+
+.third-sec img {
+    width: 400px;
+    height: 280px;
 }
 
 
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    background-color: #F8E1DB;
+    margin-top: 80px;
+    padding: 50px 100px;
+}
+
+.footer-top {
+    display: flex;
+}
+
+.footer-div-one {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+}
+
+.footer-link a img {
+    width: 100px;
+    height: 40px;
+}
+
+.footer-div-two {
+    display: flex;
+    width: 50%;
+    gap: 30px; 
+}
+
+h3 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links ul li a {
+    font-size: 16px;
+    color: #3B3735;
+}
+
+@media screen and (max-width: 768px) {
+
+    .bar-info {
+        display: none;
+    }
+
+    .sign {
+        display: none;
+    }
+
+    .first-sec {
+        height: 120vh;
+        width: 90%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .service {
+        position: static;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .second-sec-h {
+        width: 90%;
+    }
+
+    .destinations {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .third-sec {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    .subscribe {
+        width: 90%;
+    }
+
+    .third-sec img {
+        width: 90%;
+        height: auto;
+    }
+
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .footer-div-one {
+        flex-wrap: wrap;
+    }
+
+    .footer-div-one div p {
+        display: none;
+    }
+
+    .footer-div-two {
+        flex-wrap: wrap;
+    }
+}
